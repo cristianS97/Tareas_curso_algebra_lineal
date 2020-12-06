@@ -1,0 +1,87 @@
+---
+title: "Resolución"
+author: "Cristian Sáez Mardones"
+date: "04-12-2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Resolución
+
+### Pregunta 1
+
+$\vec{AB}\ =\ (0-1,\ 3-2)\ =\ (-1,\ 1)$
+
+Buscamos vector $\vec{CD}\ =\ (d_{x}-c_{x},\ d_{y}-c_{y})$ que cumpla que $(d_{x}-c_{x},\ d_{y}-c_{y})\ =\ (-1,\ 1)$
+
+Así $d_{x}-c_{x}\ =\ -1\ \Rightarrow\ d_{x}\ =\ c_{x}\ -\ 1$, y $d_{y}-c_{y}\ =\ 1\ \Rightarrow\ d_{y}\ =\ 1\ +\ c_{y}$, con esto buscamos un punto $(c_{x},\ c_{y})\ \in\ \mathbb{R}^{2}$
+
+Si consideramos $c\ =\ (0, 0)$, tendremos $d\ =\ (0-1,\ 1+0)\ \Rightarrow\ d\ =\ (-1, 1)$, con lo que podemos afirmar que el vector $\vec{CD}$ es equivalente al vector $\vec{AB}$.
+
+***
+
+### Pregunta 2
+
+$\vec{AB}\ =\ (6-3,\ -2-5)\ =\ (3,\ -7)$
+
+Ahora buscamo $\vec{D}$, tal que, $\vec{CD}\ =\ (d_{x}\ -\ (-1),\ d_{y}\ -\ 0)\ =\ (3,\ -7)$.
+
+Así $d_{x}\ +\ 1\ =\ 3\ \Rightarrow\ d_{x}\ =\ 2$ y $d_{y}\ =\ -7$
+
+Con lo que $D\ =\ (2,\ -7)$
+
+Finalmente el vector equivalente resulta $\vec{CD}\ =\ (2\ -\ (-1),\ -7\ -\ 0)\ =\ (3,\ -7)$
+
+***
+
+### Pregunta 3
+
+Modulo: $|OA|^{2}\ =\ 7^{2}\ +\ (-5)^{2}\ =\ 49\ +\ 25\ =\ 74\ \Rightarrow\ |OA|\ =\ \sqrt{74}$
+
+Ángulo del vector $tan(\alpha)\ =\ -\frac{5}{7}\ \Rightarrow\ \alpha\ =\ arctan\left(-\frac{5}{7}\right)\ =\ -0.62025$ radianes.
+
+```{r}
+atan(-5/7)
+```
+
+Convertimos $-0.62025\text{rad}\ \cdot\ \frac{360^{\circ}}{2\ \cdot\ \pi\ \text{rad}}\ =\ -35.5377$, que es equivalente a $324.4623^{\circ}$
+
+```{r}
+-0.62025 * 360 / (2 * pi)
+360 + (-0.62025 * 360 / (2 * pi))
+```
+
+\pagebreak
+
+### Pregunta 4
+
+$x\ =\ 8\ \cdot\ cos(135^{\circ})\ =\ 8\ \cdot\ -0.7071\ =\ -5.6568$
+
+$y\ =\ 8\ \cdot\ sen(135^{\circ})\ =\ 8\ \cdot\ 0.7071\ =\ 5.6568$
+
+```{r}
+8 * -0.7071
+8 * 0.7071
+```
+
+***
+
+### Pregunta 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
