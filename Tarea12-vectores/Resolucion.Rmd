@@ -1,0 +1,13 @@
+---
+title: "Tarea12"
+author: "Cristian Sáez Mardones"
+date: "08-12-2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Python
+library(reticulate)
+use_python("D:/a1.anaconda/python")
+```
